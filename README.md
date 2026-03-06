@@ -11,7 +11,7 @@ Le travail a consisté à analyser ces données, à les intégrer dans une base 
 
 ## Travaux réalisés
 
-Dans un premier temps, nous avons étudié les données brutes afin d’identifier les entités principales et les relations entre elles. À partir de cette analyse, nous avons conçu un modèle de données avec un MCD et un MLD réalisés avec le logiciel Looping.
+Dans un premier temps, nous avons étudié les données brutes dans le but d'identifier les entités principales et les relations entre elles. À partir de cette analyse, nous avons conçu un modèle de données avec un MCD et un MLD réalisés avec le logiciel Looping.
 
 Ensuite, nous avons mis en place une base de données relationnelle SQL et développé un script Python permettant de créer les tables et d’alimenter automatiquement la base à partir du fichier de données initial.
 
@@ -23,7 +23,7 @@ Enfin, nous avons développé un script Python permettant de migrer les données
 
 Ce repository regroupe principalement les scripts utilisés pour :
 
-- creer et alimenter la base de donnees relationnelle a partir des donnees brutes
-- migrer les donnees de la base SQL vers une base graphe Neo4j
+- Créer et alimenter la base de données relationnelle à partir des données brutes
+- Migrer les données de la base SQL vers une base graphe Neo4j
 
-Il permet ainsi de retrouver l’ensemble du code utilise pour la transformation et la migration des donnees entre les deux systemes.
+Il permet ainsi de retrouver l’ensemble du code utilise pour la transformation et la migration des données entre les deux systèmes.
